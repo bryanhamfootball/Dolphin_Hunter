@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+BODY {
+	font-family: 'Roboto', sans-serif;
+}
+
 DIV {
     border: 1px solid #000;
     }
 	
 #Header {
     height: 100px;
-    width: 800x;
+    width: 800px;
     margin-right: auto;
 	margin-left: auto;
 	background: url(images/banner.png) no-repeat;
@@ -12,10 +18,18 @@ DIV {
 }
 
 #MainContent {
-	width: 800px;
+	width: 800pxnig
 	margin-right: auto;
 	margin-left: auto;
 } 
+
+#Footer {
+	width: 802px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 50ps;
+	border: 1px solid #fff;
+}
 
 #FooterLeft {
 	float: left;
@@ -29,4 +43,10 @@ DIV {
 	width: 399px; /*49.5%*/
 	height: 50px;
 	border: 1 px solid red;
+}
+
+@media only screen and (max-width: 998px) {
+	#Footer, #MainContent, #Header {
+		width:100%;
+	}
 }
