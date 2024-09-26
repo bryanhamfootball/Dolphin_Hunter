@@ -35,4 +35,6 @@ In dolphin hunter, i developed the game using code tutorials from youtube to cre
 
 Lewis Johnson in 10 Multi Media
 
+![Screenshot 2024-09-26 130048](https://github.com/user-attachments/assets/cad19884-f9c1-4942-897e-48e6efbd27f5)
+
 
